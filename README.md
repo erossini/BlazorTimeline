@@ -4,18 +4,35 @@ This is a new component for [Blazor WebAssembly](https://www.puresourcecode.com/
 
 <img width="410" alt="Timeline" src="https://user-images.githubusercontent.com/9497415/220400235-903db41b-ef8e-4bd6-b740-ed5c026f9402.png">
 
-## Properties
+## Timeline properties and methods
 
-### Timeline
-| Name               | Description                                      |
-|--------------------|--------------------------------------------------|
-| ChildContent	     | Gets or sets the content of the child.           |
-|	ItemPositionOption | Should items be altered automatically or manual. |
-| TextBgColor	       | Description background color.                    |
-|	TextColor	         | Description text color.                          |
-| Title	             | Timeline title which will be displayed above.    |
-|	TitleBgColor       | Background color for title section.              |
-|	TitleColor	       | Text color for title section.                    |
+### Timeline properties
+
+|   | Name               | Description                                      |
+|---|--------------------|--------------------------------------------------|
+| ![image](https://user-images.githubusercontent.com/9497415/220409836-c7035379-3fb1-48f2-9906-5c799b62e18e.png) | ChildContent	     | Gets or sets the content of the child.           |
+| ![image](https://user-images.githubusercontent.com/9497415/220409836-c7035379-3fb1-48f2-9906-5c799b62e18e.png) | ItemPositionOption | Should items be altered automatically or manual. |
+| ![image](https://user-images.githubusercontent.com/9497415/220409836-c7035379-3fb1-48f2-9906-5c799b62e18e.png) | TextBgColor	       | Description background color.                    |
+| ![image](https://user-images.githubusercontent.com/9497415/220409836-c7035379-3fb1-48f2-9906-5c799b62e18e.png) | TextColor	         | Description text color.                          |
+| ![image](https://user-images.githubusercontent.com/9497415/220409836-c7035379-3fb1-48f2-9906-5c799b62e18e.png) | Title	             | Timeline title which will be displayed above.    |
+| ![image](https://user-images.githubusercontent.com/9497415/220409836-c7035379-3fb1-48f2-9906-5c799b62e18e.png) | TitleBgColor       | Background color for title section.              |
+| ![image](https://user-images.githubusercontent.com/9497415/220409836-c7035379-3fb1-48f2-9906-5c799b62e18e.png) | TitleColor	       | Text color for title section.                    |
+
+### Timeline item properties
+
+|   | Name                | Description                                      |
+|---|---------------------|--------------------------------------------------|
+| ![image](https://user-images.githubusercontent.com/9497415/220409836-c7035379-3fb1-48f2-9906-5c799b62e18e.png) | ButtonText	        | Gets or sets the button text.                    |
+| ![image](https://user-images.githubusercontent.com/9497415/220409836-c7035379-3fb1-48f2-9906-5c799b62e18e.png) | ChildContent	      | Gets or sets the content of the child.           |
+| ![image](https://user-images.githubusercontent.com/9497415/220409836-c7035379-3fb1-48f2-9906-5c799b62e18e.png) | Icon	              | Gets or sets the icon.                           |
+| ![image](https://user-images.githubusercontent.com/9497415/220409836-c7035379-3fb1-48f2-9906-5c799b62e18e.png) | IconContent	        | Gets or sets the content of the icon.            |
+| ![image](https://user-images.githubusercontent.com/9497415/220409836-c7035379-3fb1-48f2-9906-5c799b62e18e.png) | Link	              | Gets or sets the link.                           |
+| ![image](https://user-images.githubusercontent.com/9497415/220409836-c7035379-3fb1-48f2-9906-5c799b62e18e.png) | Position	          | Gets or sets the position.                       |
+| ![image](https://user-images.githubusercontent.com/9497415/220409836-c7035379-3fb1-48f2-9906-5c799b62e18e.png) | TextBackgroundColor	| Gets or sets the color of the text background.   |
+| ![image](https://user-images.githubusercontent.com/9497415/220409836-c7035379-3fb1-48f2-9906-5c799b62e18e.png) | Time                | Gets or sets the time.                           |
+| ![image](https://user-images.githubusercontent.com/9497415/220409836-c7035379-3fb1-48f2-9906-5c799b62e18e.png) | Timeline	          | Gets or sets the timeline.                       |
+| ![image](https://user-images.githubusercontent.com/9497415/220409836-c7035379-3fb1-48f2-9906-5c799b62e18e.png) | Title	              | Title for timeline item                          |
+| ![image](https://user-images.githubusercontent.com/9497415/220409836-c7035379-3fb1-48f2-9906-5c799b62e18e.png) | TitleBackgroundColor | Gets or sets the color of the back ground.      |
 
 ## Timeline Icon embedded
 
