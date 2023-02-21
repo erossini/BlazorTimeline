@@ -6,6 +6,58 @@ The timeline is responsive and easy to customize. The `Timeline` is configuratio
 
 <img width="410" alt="Timeline" src="https://user-images.githubusercontent.com/9497415/220400235-903db41b-ef8e-4bd6-b740-ed5c026f9402.png">
 
+## Usage
+
+### 1. Install 
+
+This component is a Nuget package available from [this link](https://www.nuget.org/packages/PSC.Blazor.Components.Timeline/).
+
+### 2. Add using to your project.
+
+```html
+@using PSC.Blazor.Components.Timeline
+@using PSC.Blazor.Components.Timeline.Enums
+```
+
+### 3. Example code
+```html
+@using PSC.Blazor.Components.Timeline
+
+<Timeline ItemPositionOption="@ItemPositionOption.Manual">
+    <TimelineItem Title="Start here" Time="@DateTime.Now.ToString("dd/MM/yyyy")" 
+        ButtonText="PureSourceCode.com" Link="https://www.puresourcecode.com">
+        Here you can write some text. The <code>TimelineItem</code> has 
+        the property for adding a button called <code>ButtonText</code>
+        and you can add a link with <code>Link</code>.
+    </TimelineItem>
+
+    <TimelineItem Title="Custom content" Position="ItemPosition.Right" Icon="Icon.UserTime">
+        <span>
+            <code>TimelineItem</code> can be altered to appear on the right! 
+            Also, you can use the default icon or use one of the embedded icons with <code>Icon</code>.
+        </span>
+
+        <span>You can add images or any other HTML code</span> <br />
+        <img src="/psc_logo.png" style="max-width: 100%;" />
+    </TimelineItem>
+
+    <TimelineItem Title="Documentation" Icon="Icon.Timeline" 
+                  ButtonText="Documentation" Link="https://www.puresourcecode.com">
+        <span>
+            Now, visit the page with the documentation and same examples.
+        </span>
+    </TimelineItem>
+
+    <TimelineItem TitleBackgroundColor="#70b0ff" TextBackgroundColor="#ffffff" 
+                  Title="Forum" Icon="Icon.ReminderClock" ButtonText="Forum" 
+                  Link="https://www.puresourcecode.com">
+        <span>
+            Use the forum to send your comment or submit your questions.
+        </span>
+    </TimelineItem>
+</Timeline>
+```
+
 ## Timeline properties and methods
 
 ### Timeline properties
