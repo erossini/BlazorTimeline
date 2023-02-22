@@ -6,6 +6,9 @@ The timeline is responsive and easy to customize. The `Timeline` is configuratio
 
 <img width="410" alt="Timeline" src="https://user-images.githubusercontent.com/9497415/220400235-903db41b-ef8e-4bd6-b740-ed5c026f9402.png">
 
+For more details about this component, please see this post on [PureSourceCode.com](). 
+If you need support for this component or you have a suggestion or comment, please use my [Forum](https://www.puresourcecode.com/forum/timeline/).
+
 ## Usage
 
 ### 1. Install 
