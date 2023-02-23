@@ -1,6 +1,6 @@
 # Timeline for Blazor
 
-This is a new component for [Blazor WebAssembly](https://www.puresourcecode.com/tag/blazor-webassembly/) and [Blazor Server](https://www.puresourcecode.com/tag/blazor-server/). The components is build with .NET6.
+This is a new component for [Blazor WebAssembly](https://www.puresourcecode.com/tag/blazor-webassembly/) and [Blazor Server](https://www.puresourcecode.com/tag/blazor-server/). The components is build with [NET6](https://www.puresourcecode.com/tag/net6/).
 
 The timeline is responsive and easy to customize. The `Timeline` is configuration with the colors, icon and HTML code. Each `TimelineItem` has properties for changing colors and more features.
 
